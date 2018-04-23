@@ -17,20 +17,19 @@ for (var i = 0; i<= 5; i++) {
   }
   
 function displayImage(smallImage) {
-  displayedImage.setAttribute('src')
+  displayedImage.setAttribute('src');
   }
 /* Wiring up the Darken/Lighten button */
 
 btn.onclick = function() {
-    var btnCheck = btn.getAttibute('class')
+    var btnCheck = btn.getAttibute('class');
  if (btn.Check = 'dark') {
      btn.setAttribute('class', 'light');
      btn.textContent = 'Lighten';
      overlay.style.backgroundColor = 'rgba(0,0,0.5)';
- else {
+ } else {
      btn.setAttribute('class', 'dark');
      btn.textContent = 'Darken';
-     overlay.style.backgroundColor = 'rgba(0,0,0,0,)'
+     overlay.style.backgroundColor = 'rgba(0,0,0,0,)';
      }
  }
-}
