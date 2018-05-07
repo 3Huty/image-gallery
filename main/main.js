@@ -24,7 +24,7 @@ function displayImage(newImageUrl) {
 
 btn.onclick = function() {
   var btnCheck = btn.getAttribute('class');
-  if(btnCheck === 'dark') {
+  if (btnCheck === 'dark') {
     btn.setAttribute('class', 'light');
     btn.textContent = 'Lighten';
     overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
